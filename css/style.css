@@ -1,7 +1,7 @@
-
 /**************************************Landing page*/
+
 .img1 {
-    background-image:linear-gradient(to right,#e3ccac, #bd8e8e);
+    background-image: linear-gradient(to right, #e3ccac, #bd8e8e);
     position: relative;
     opacity: 0.60;
     background-position: center;
@@ -9,81 +9,114 @@
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
-    
+
 }
 
 .name {
     font-size: 60px;
-    color: #17223b;
+    color: #263859;
 }
 
 .p1 {
     font-size: 35px;
-    color: #17223b;
+    color: #263859;
 }
 
 /*********************************Nav*/
+
 .nav-link {
     text-align: right;
     color: #fafafa;
-    
+
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #bd8e8e;
 }
 
 /********************************/
 
-
-.name-border{
+.name-border {
     text-align: center;
     position: absolute;
-    top:40%;
+    top: 40%;
     left: 20%;
     right: 20%;
     color: ;
     width: 60%;
-    
-    
-    
-    font-family: 'abril fatface', cursive;;
-    
-    }
-    
-span.border{
+    font-family: 'abril fatface', cursive;
+    ;
+
+}
+
+
+
+span.border {
     border: none;
-}    
+}
 
 /*******************************************************/
 
-
 /**************************************About Me / Timeline*/
-div.col-6.about-me{
+
+div.col-6.about-me {
     position: absolute;
 }
 
 
 
-.about-me{
-    
+.about-me {
+
     padding: 60px;
-    background-color: #;
-    position: absolute;
-    font-family: 'Raleway' ,sans-serif;
+    background-color: #fff4e3;
+
+
     
+
+
+
+
+
 }
 
+.detail-heading {
+    font-size: 35px;
+    font-family: 'abril fatface', cursive;
+    color: #263859;
+    margin-bottom: 30px
+}
 
 .personal-info {
-    font-size: 26px;
-    
+    margin: 30px 20px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #314a52;
+
+
 }
 
-.work-timeline{
-  
-  
+
+.personal-info .key {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.personal-info .value {
+    font-weight: 600;
+}
+
+.timeline-item h4 {
+    font-weight: 700;
+}
+
+.work-timeline {
+
+    padding-top: 60px;
     position: relative;
     padding: 20px;
-    background-color: #;
-    
-    
+    background-color: #fff4e3;
+
+
 }
 
 
@@ -94,6 +127,7 @@ div.col-6.about-me{
     color: #314a52;
     border-right: 1px solid;
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 .timeline-item p {
@@ -107,7 +141,7 @@ div.col-6.about-me{
     right: 2em;
     top: 2.5em;
     display: block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'abril fatface', sans-serif;
     font-weight: 600;
     font-size: 0.8em;
     padding: 0;
@@ -124,8 +158,9 @@ div.col-6.about-me{
     right: -6px;
     border-radius: 12px;
     content: '';
-    background: #314a52 ;
+    background: #314a52;
     font-family: 'Raleway', sans-serif;
+
 
 }
 
@@ -137,68 +172,77 @@ div.col-6.about-me{
 
 /**********************************Spacing/img2*/
 
+#img2 {
 
-#img2{
-
-    min-height: 30vh;
+    min-height: 40vh;
 }
 
 
 /*************************************************Skills bar/Portfolio*/
 
-.skills-bar{
-   background-color: ;
-   min-height: 60vh;
+.skills-bar {
+    background-color: ;
+    min-height: 60vh;
 }
 
-div.progress-bar{
+div.progress-bar {
     background-color: #c5c5c5;
 }
 
-div.progress{
+div.progress {
     margin: 25px;
     height: 30px;
     font-size: 1rem;
-  
+
 }
 
-.portfolio{
+.portfolio {
     background-color: ;
+}
+
+
+a.btn.btn-info {
+    background-color: #7d7d7d;
+    border-color: #7d7d7d;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: block;
 }
 
 
 /***********************************************Form/Social section*/
 
-.form-section{
+.form-section {
     background-color: ;
     text-align: center;
     min-height: 50vh;
-    
+
 }
 
-.social-section{
+.social-section {
     background-color: ;
-    
+
 }
 
 .fa {
-  padding:20px;
-  margin: 20px;
-  
-  font-size: 40px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  background-color: # ;
-  color: #314a52;
-  
+    padding: 20px;
+    margin: 20px;
+
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #;
+    color: #314a52;
+
 }
 
-a.fa{
+a.fa {
     display: block;
 }
 
 .fa:hover {
-  color: black;
+    color: black;
 }
