@@ -35,7 +35,7 @@ body, html {
 }
 
 .navbar-light .navbar-toggler {
-    background-color: #bd8e8e;
+    background-color: #fff0f0;
 }
 
 /********************************/
@@ -72,7 +72,7 @@ div.col-6.about-me {
 .about-me {
 
     padding: 60px;
-    background-color: #fff4e3;
+    background-color: #fff0f0;
 
 
 
@@ -118,7 +118,7 @@ div.col-6.about-me {
     padding-top: 60px;
     position: relative;
     padding: 20px;
-    background-color: #fff4e3;
+    background-color: #fff0f0;
 
 
 }
@@ -176,18 +176,27 @@ div.col-6.about-me {
 
 /**********************************Spacing/img2*/
 
-#img2 {
-
+.img2 {
+    background-image:url(../img/img2.jpg) ;
     min-height: 40vh;
+    min-width: 100vw;
+    opacity: 0.60;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-
+#img3 {
+    min-height: 40vh;
+}
 /*************************************************Skills bar/Portfolio*/
 
 .skills-bar {
 
     min-height: 60vh;
-    background-color: #fff4e3;
+    background-color: #fff0f0;
 }
 
 .skill-heading {
@@ -221,7 +230,7 @@ div.progress {
 }
 
 .portfolio {
-    background-color: #fff4e3;
+    background-color: #fff0f0;
 }
 
 .sample-heading {
@@ -240,6 +249,7 @@ a.btn.btn-info {
     height: 80px;
     display: block;
     margin:0 0 5% 40%;
+    text-align: center;
    
 }
 
@@ -248,7 +258,7 @@ a.btn.btn-info {
 /***********************************************Form/Social section*/
 
 .form-section {
-    background-color: #fff4e3;
+    background-color: #fff0f0;
     text-align: center;
     min-height: 50vh;
 
@@ -264,7 +274,7 @@ button.btn.btn-default {
     margin: 0px 0px 20px 0px;
 }
 .social-section {
-    background-color:#fff4e3 ;
+    background-color:#fff0f0 ;
 
 }
 .work-heading {
@@ -293,6 +303,10 @@ button.btn.btn-default {
     background-color: #fafafa;
     color: #314a52;
 
+}
+
+.fa-twitter {
+    margin-bottom: 20px;
 }
 
 a.fa {
