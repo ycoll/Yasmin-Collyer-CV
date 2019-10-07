@@ -1,9 +1,13 @@
 /**************************************Landing page*/
+body, html {
+  height: 100%;
+}
 
 .img1 {
-    background-image: linear-gradient(to right, #e3ccac, #bd8e8e);
+    background-image:url(../img/img1.jpg) ;
     position: relative;
     opacity: 0.60;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +75,7 @@ div.col-6.about-me {
     background-color: #fff4e3;
 
 
-    
+
 
 
 
@@ -181,12 +185,28 @@ div.col-6.about-me {
 /*************************************************Skills bar/Portfolio*/
 
 .skills-bar {
-    background-color: ;
+
     min-height: 60vh;
+    background-color: #fff4e3;
 }
+
+.skill-heading {
+    font-size: 35px;
+    padding: 30px 0px;
+    font-family: 'abril fatface', cursive;
+    color: #263859;
+
+}
+
+
+
 
 div.progress-bar {
     background-color: #c5c5c5;
+    color:#314a52 ;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 div.progress {
@@ -196,10 +216,21 @@ div.progress {
 
 }
 
-.portfolio {
-    background-color: ;
+.hire-me{
+    margin: 50px 20px 30px;
 }
 
+.portfolio {
+    background-color: #fff4e3;
+}
+
+.sample-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #314a52;
+    padding: 50px 0px 20px;
+    text-align: center;
+}
 
 a.btn.btn-info {
     background-color: #7d7d7d;
@@ -208,33 +239,58 @@ a.btn.btn-info {
     width: 80px;
     height: 80px;
     display: block;
+    margin:0 0 5% 40%;
+   
 }
+
 
 
 /***********************************************Form/Social section*/
 
 .form-section {
-    background-color: ;
+    background-color: #fff4e3;
     text-align: center;
     min-height: 50vh;
 
 }
 
+
+button.btn.btn-default {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: #fafafa;
+    font-weight: 700;
+    color: #314a52;
+    margin: 0px 0px 20px 0px;
+}
 .social-section {
-    background-color: ;
+    background-color:#fff4e3 ;
 
 }
+.work-heading {
+    font-family: 'abril fatface', cursive;
+    margin :30px 0px 30px;
+    font-size: 30px;
+    color: #263859;
+}
 
+.social-heading {
+    font-family: 'Raleway', sans-serif;
+    color: #314a52; 
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
 .fa {
     padding: 20px;
-    margin: 20px;
+    margin: 20px 40% 0px ;
 
-    font-size: 40px;
+    
     width: 50px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    background-color: #;
+    background-color: #fafafa;
     color: #314a52;
 
 }
