@@ -36,8 +36,13 @@ body, html {
 
 .navbar-light .navbar-toggler {
     background-color: #fff0f0;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    
 }
-
+.navbar-light .navbar-toggler:hover {
+    background-color: #e8c7c9;
+}
 /********************************/
 
 .name-border {
@@ -46,7 +51,7 @@ body, html {
     top: 40%;
     left: 20%;
     right: 20%;
-    color: ;
+    
     width: 60%;
     font-family: 'abril fatface', cursive;
     ;
@@ -211,7 +216,7 @@ div.col-6.about-me {
 
 
 div.progress-bar {
-    background-color: #c5c5c5;
+    background-color:#e7c6c8;
     color:#314a52 ;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
@@ -222,9 +227,12 @@ div.progress {
     margin: 25px;
     height: 30px;
     font-size: 1rem;
+    background-color: #f5dbda;
 
 }
-
+.hire-key{
+    margin-top: 60px;
+}
 .hire-me{
     margin: 50px 20px 30px;
 }
@@ -242,19 +250,28 @@ div.progress {
 }
 
 a.btn.btn-info {
-    background-color: #7d7d7d;
-    border-color: #7d7d7d;
+    background-color: #e7c6c8;
+    border-color: #e7c6c8;
+    color: #314a52 ;
+    font-weight: 500;
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    display: block;
+    display: inline-block;
     margin:0 0 5% 40%;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    transition: .5s;
    
 }
+ 
+a.btn.btn-info:hover {
+    background-color: #f5dbda;
+    border-color: #f5dbda; 
+}
 
-
-
+.p-button {
+   margin: 30% 5% 0 0;
+}
 /***********************************************Form/Social section*/
 
 .form-section {
@@ -300,7 +317,7 @@ button.btn.btn-default {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    background-color: #fafafa;
+    background-color: #e9ecef;
     color: #314a52;
 
 }
