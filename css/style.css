@@ -1,4 +1,6 @@
 /**************************************Landing page*/
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface: 100,200,300,400,500,600,700,|Raleway:100,200,300,400,500,600,700, &display=swap');
+
 
 body,
 html {
@@ -48,6 +50,8 @@ html {
     background-color: #e8c7c9;
 }
 
+
+
 /********************************/
 
 .name-border {
@@ -84,13 +88,7 @@ div.col-6.about-me {
     padding: 60px;
     background-color: #fff0f0;
 
-
-
-
-
-
-
-
+    
 }
 
 .detail-heading {
