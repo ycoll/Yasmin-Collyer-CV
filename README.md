@@ -30,7 +30,8 @@ I have included my plans for the project in my project in a seperate directory. 
 
 ### Features Left to Implement
 - Form: I would like to make my contact form functional once I have learned more skills.
-
+- Links: I would like to link my actual social accounts, at the minute I don't use many.
+- Personal Details: I would like to add all correct details once I have more experience.
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
