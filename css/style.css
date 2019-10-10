@@ -1,10 +1,11 @@
 /**************************************Landing page*/
+
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface: 100,200,300,400,500,600,700,|Raleway:100,200,300,400,500,600,700, &display=swap');
 
 
 body,
 html {
-    
+
     height: 100%;
 }
 
@@ -36,7 +37,7 @@ html {
 
 .nav-link {
     text-align: right;
-    
+
 
 }
 
@@ -89,7 +90,7 @@ div.col-6.about-me {
     padding: 60px;
     background-color: #fff0f0;
 
-    
+
 }
 
 .detail-heading {
@@ -299,9 +300,11 @@ button.btn.btn-default {
     margin: 0px 0px 20px 0px;
     transition: .5s ease-in-out;
 }
-button.btn.btn-default:hover{
+
+button.btn.btn-default:hover {
     background-color: #f5dbda;
 }
+
 .social-section {
     background-color: #fff0f0;
 
@@ -355,11 +358,11 @@ a.fa {
     text-align: center;
     padding: 10px 15px 15px;
     margin-bottom: 20px;
-    
-    
+
+
 }
 
-.cv-text{
+.cv-text {
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     font-weight: 600;
