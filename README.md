@@ -46,6 +46,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 When testing my website I went through each section and ensured that they all worked as intended and were responsive.
 
+- I tested my form and made it as functional as I could with my current skills.
 - I went through my user story of a potential employer and everything went smoothly except for my contact form. This form isn't functional as I haven't learned any JavaScript yet, I plan on fixing this issue in the future once I have the skills to do so.
 
 I tested my website on all screen sizes and found it to be fully responsive
@@ -64,3 +65,5 @@ This website is hosted on GitHub pages.
 ### Acknowledgements
 
 - I received inspiration for this project from previous mini projects completed so far and incorporated some elements into my projects.
+- I also looked at some websites on awwards.com(https://www.awwwards.com) for inspiration.
+- Anything I was unsure of how to do I googled and learned on w3schools.com(https://www.w3schools.com)
