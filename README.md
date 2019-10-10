@@ -54,7 +54,8 @@ When testing my website I went through each section and ensured that they all wo
 
 I tested my website on all screen sizes and found it to be fully responsive.
 ## Deployment
-This website is hosted on GitHub pages. 
+This website is hosted on GitHub pages here ( https://ycoll.github.io/Yasmin-Collyer-CV/). 
+ 
 
 
 ## Credits
