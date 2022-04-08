@@ -1,6 +1,6 @@
 # Yasmin Collyer Portfolio
 
-This is my first Milestone Project for the 'User Centric Frontend Development' module with the Code Institute.
+
 
 This is my personal portfolio website and will act as an online CV for prospective employers. 
 I have icluded all my personal details, work history, coding skills, some links to potential sample work and a contact me section. 
